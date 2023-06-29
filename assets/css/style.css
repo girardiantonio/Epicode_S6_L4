@@ -1,0 +1,191 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+
+.nav {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  height: 80px;
+  justify-content: space-between;
+}
+
+.nav img {
+  height: 40px;
+  cursor: pointer;
+}
+
+.navLeft {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.navLeft p {
+  margin: 0 0 0 20px;
+  cursor: pointer;
+}
+
+.navRight {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.navRight i {
+  cursor: pointer;
+}
+
+.navRight img {
+  border-radius: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.title {
+  background-color: rgb(73, 8, 158);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.title img {
+  height: 100%;
+  margin-right: 150px;
+}
+
+.titleText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 450px;
+  height: 250px;
+  margin-left: 150px;
+}
+
+.titleText h1 {
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+}
+
+.titleText p {
+  font-size: 20px;
+  margin: 20px 0 20px 0;
+  width: 300px;
+  color: rgb(139, 138, 136);
+}
+
+.titleText button {
+  width: 140px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+}
+
+.titleText button:first-child {
+  color: white;
+  background-color: green;
+}
+
+.content {
+  height: 100vh;
+  margin: 0 200px 0 200px;
+}
+
+.schedule {
+  justify-content: space-between;
+  display: flex;
+  height: 80px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.scheduleOne {
+  display: flex;
+  align-items: center;
+}
+
+.scheduleOne i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(244, 216, 91);
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  border-radius: 40px;
+}
+
+.scheduleOne :first-child {
+  font-weight: bold;
+}
+
+.cardOne {
+  border-radius: 20px;
+  height: 400px;
+  width: 250px;
+}
+
+.cardOne img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 100%;
+}
+
+.cardOneText {
+  height: 100%;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.cardOneText img {
+  height: 40px;
+  width: 40px;
+  border-radius: 30px;
+}
+
+.stars {
+  margin: 20px 0 20px 0;
+}
+
+.cardOne i {
+  font-size: 14px;
+}
+
+.cardOneImg {
+  display: flex;
+}
+
+.cardOneImg img {
+  margin-right: 10px;
+}
+
+.cardOne p {
+  margin: 10px 0 20px 0;
+}
+
+footer {
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-between;
+}
+
+.footTerm {
+  display: flex;
+}
+
+.footTerm p {
+  margin-left: 20px;
+}
